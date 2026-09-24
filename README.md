@@ -22,6 +22,7 @@
 
 - 🧑‍💻 **4+ years** of commercial frontend, **1.5+ years** shipping production **Next.js**
 - 🏗️ Built a platform's frontend **from zero** as the founding frontend engineer — design tokens → UI library → three apps in one monorepo
+- 🇩🇪 Frontend of **[orap.de](https://orap.de/en)** and **[handlerparts.com](https://handlerparts.com/en)** — live German auto parts e-commerce (AUTODOC Group), incl. a **Nuxt 3 → 4 upgrade on the live shop**
 - 🔍 Architected an SSR platform for an SEO-dependent product — load time **~5 s → under 1 s**
 - 🧩 Catalogues, filters, cards and galleries: a high-traffic marketplace and an automotive e-commerce storefront
 - 🤝 Comfortable **owning the whole frontend next to a backend lead** — from the first component to production
@@ -36,6 +37,8 @@
 | **−35%** | initial load on an SSR platform I architected from scratch — Core Web Vitals and organic traffic up |
 | **−40% / +25%** | legacy code / team velocity after leading a Vue 2 → Vue 3 migration |
 | **−30%** | runtime errors after a full JavaScript → TypeScript migration |
+| **243 / 256** | commits on orap.de that are mine — 228 components, almost the whole frontend |
+| **21 → 3** | npm audit advisories on a live shop after a dependency cleanup |
 | **10 000+** | concurrent WebSocket connections on a marketplace chat |
 
 ## 🛠️ Tech stack
@@ -56,7 +59,7 @@
 `SSR / ISR` `metadata & canonical` `hreflang` `sitemap & redirect maps for migrations` `Core Web Vitals` `image optimisation (next/image, srcset, lazy loading)` `code splitting` `list virtualisation`
 
 **🧪 Testing**
-`Cypress (E2E)` `Jest` `Vitest` `React Testing Library`
+`Playwright (E2E)` `axe-core` `Vitest + coverage` `msw` `Cypress` `Jest` `React Testing Library`
 
 **🤖 AI-first workflow**
 `Claude Code` daily on real product work — agents for scaffolding, refactors, test generation and pre-review of my own diffs; custom skills and scripts for repetitive checks; strict verify-by-hand discipline for anything that ships
@@ -65,7 +68,7 @@
 `Git` `GitHub PR flow` `code review` `GitHub Actions` `GitLab CI` `Docker` `Vercel` `AWS (S3, CloudFront, Lambda)` `Jira`
 
 **➕ Also**
-`Vue 3 / Nuxt` `Angular` `Ionic & Capacitor`
+`Vue 3 / Nuxt 3 & 4` `Angular` `Ionic & Capacitor`
 
 ## 💼 Experience
 
@@ -80,6 +83,18 @@
 - ✅ Covered the critical user flows with **Cypress E2E tests**; every change goes through PR review and GitHub Actions CI
 
 🧰 `Next.js (App Router)` `React` `TypeScript` `Turborepo` `Zustand` `React Query` `GraphQL` `REST` `WebSockets` `Storybook` `Styled Components` `Cypress` `GitHub Actions`
+
+### 🇩🇪 AUTODOC Group — Frontend Developer (contract)
+📅 Mar 2026 — Present &nbsp;·&nbsp; 🌍 Remote
+
+> Two SEO-critical storefronts of a German auto parts e-commerce group — **[orap.de](https://orap.de/en)** and **[handlerparts.com](https://handlerparts.com/en)** — on Nuxt with SSR and multiple locales.
+
+- 🔀 **URL migrations without losing traffic:** when a catalogue section was retired I **301'd its URLs** to the locale home instead of deleting them; the whole group tree is rendered as links **in the SSR HTML** so crawlers see the full structure without JS
+- ⬆️ Led a **framework major upgrade on a live shop** (Nuxt 3 → 4): test coverage for the stores and tables first, then fixed an `unhead` mismatch that had silently dropped every meta tag, and added a regression test asserting that `useSeoMeta` reaches the document head
+- 🛒 Own orap.de's frontend almost end to end — **243 of 256 commits, 228 components**: catalogue, product pages, cart, bulk article search, customer dashboard, **PayPal checkout**, German legal pages
+- ♿ Accessibility enforced in CI (`eslint-plugin-vuejs-accessibility`, **axe-core inside Playwright**); dependency audit down from 21 advisories to 3 accepted
+
+🧰 `Nuxt 3 & 4` `Vue 3` `TypeScript` `Pinia` `Tailwind CSS` `@nuxt/image` `nuxt-schema-org` `PayPal SDK` `Playwright` `axe-core` `Vitest` `msw`
 
 ### 🚗 Auto parts e-commerce storefront — Frontend Developer (contract)
 📅 2026 &nbsp;·&nbsp; 🌍 Remote
@@ -120,6 +135,4 @@
 
 ## 🗣️ Languages
 
-- **English** — B2: technical documentation, written communication, code review and async work with international teams
-- **Ukrainian** — native
-- **Russian** — fluent
+**English** — B2 &nbsp;·&nbsp; **Ukrainian** — native &nbsp;·&nbsp; **Russian** — fluent
