@@ -52,4 +52,4 @@ Marketplace on Vue: WebSocket layer for 10 000+ concurrent connections, GitLab C
 ### Education & languages
 
 M.Sc. in Computer Science — Oles Honchar Dnipro National University, 2025
-Ukrainian — native · Russian — fluent · English — B1
+Ukrainian — native · Russian — fluent · English — B2 (upper-intermediate)
