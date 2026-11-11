@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  📍 Nessebar, Bulgaria (EET) &nbsp;·&nbsp; 🌍 Fully remote &nbsp;·&nbsp; ⏰ Full-time or long-term contract &nbsp;·&nbsp; 🇬🇧 English B1
+  📍 Nessebar, Bulgaria (EET) &nbsp;·&nbsp; 🌍 Fully remote &nbsp;·&nbsp; ⏰ Full-time or long-term contract &nbsp;·&nbsp; 🇬🇧 English B2
 </p>
 
 ---
