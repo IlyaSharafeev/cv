@@ -1,5 +1,5 @@
 <h1 align="center">Ilya Sharafeev</h1>
-<h3 align="center">Frontend Engineer — React / Next.js · Vue / Nuxt · Angular · TypeScript</h3>
+<h3 align="center">Full-Stack Engineer — React / Next.js · Vue / Nuxt · Angular · Node.js / NestJS · TypeScript</h3>
 
 <p align="center">
   <a href="./CV_Ilya_Sharafeev_Frontend_Fullstack.pdf"><b>📄 Download CV (PDF)</b></a>
@@ -13,28 +13,29 @@
 </p>
 
 <p align="center">
-  📍 Nessebar, Bulgaria (EET) &nbsp;·&nbsp; 🌍 100% remote &nbsp;·&nbsp; ⏰ Full-time or long-term contract &nbsp;·&nbsp; 🇬🇧 English B1
+  📍 Nessebar, Bulgaria (EET) &nbsp;·&nbsp; 🌍 Fully remote &nbsp;·&nbsp; ⏰ Full-time or long-term contract &nbsp;·&nbsp; 🇬🇧 English B1
 </p>
 
 ---
 ### What I do
 
-- Build product frontends end to end: architecture, complex forms, auth, payments, tests in CI, performance.
+- Build products end to end in TypeScript: frontends on React, Vue and Angular, backends on Node.js / NestJS for the last two years.
+- Architecture, complex forms, auth, payments, tests in CI, performance.
 - Start from zero or join an existing codebase and work inside its conventions.
 
 ### Experience
 
-**ORAP GmbH** — Frontend Developer · *Apr 2026 – now*
-Two live multi-language e-commerce storefronts on Nuxt with SSR (orap.de, handlerparts.com). Own orap.de's frontend almost end to end — 243 of 256 commits: catalogue, cart, bulk article search for wholesale, customer dashboard, PayPal checkout. Auth with rotating refresh tokens; led the Nuxt 3 → 4 upgrade on the live shop with tests written first; Vitest, Playwright and axe-core in CI.
+**ORAP GmbH** — Full-Stack Developer (NestJS / Nuxt) · *Apr 2026 – now*
+Two live multi-language e-commerce shops (orap.de, handlerparts.com): API on NestJS, storefront on Nuxt with SSR. The main API: catalogue and search, cart and orders, login with refresh tokens, PayPal payments. Own orap.de's frontend almost end to end — 243 of 256 commits: catalogue, cart, bulk article search for wholesale, customer dashboard, PayPal checkout. Led the Nuxt 3 → 4 upgrade on the live shop with tests written first; Vitest, Playwright and axe-core in CI.
 
-**ICGS (Intercomputer Global Services GmbH)** — Frontend Developer · *Apr 2026 – Oct 2026*
-B2B e-money and payments platform (fintech, EMI). KYC / KYB onboarding for companies and individuals: multi-step forms, cross-field validation, file uploads, field-level review cycle with the back office. User profile app with 2-step verification (authenticator, SMS, passkeys). Angular 20–21, signals, RxJS, Vitest.
+**ICGS (Intercomputer Global Services GmbH)** — Full-Stack Developer (Angular / NestJS) · *Apr 2026 – Oct 2026*
+B2B e-money and payments platform (fintech, EMI). KYC / KYB onboarding for companies and individuals: multi-step forms, cross-field validation, file uploads, field-level review cycle with the back office. A NestJS service behind it: form API, server-side PDF, login and 2FA, schema and migrations on PostgreSQL and MS SQL Server. User profile app with 2-step verification (authenticator, SMS, passkeys). Angular 20–21, signals, RxJS, NestJS, Vitest.
 
-**Gelios** — Founding Frontend Engineer · *Jan 2025 – Apr 2026*
-EdTech platform from zero on React / Next.js: student portal, teacher portal and CRM in one Turborepo monorepo with a shared data layer and a Storybook component library (−50% duplicated code). CRM tables with 1 000+ rows, RBAC, Stripe and PayPal; UI CPU usage −60% (list virtualisation, TanStack Query caching); real-time over WebSockets.
+**Gelios** — Founding Full-Stack Engineer · *Jan 2025 – Apr 2026*
+EdTech platform from zero as the first engineer. The whole backend on NestJS: REST and GraphQL API on PostgreSQL, MySQL, MongoDB and Redis, JWT auth with roles, Stripe and PayPal with webhooks, a WebSocket server, file uploads, Docker and CI/CD. Frontend on React / Next.js: student portal, teacher portal and CRM in one Turborepo monorepo with a shared data layer and a Storybook component library; CRM tables with 1 000+ rows kept smooth with list virtualisation and TanStack Query caching.
 
 **Onix-Systems** — Frontend Engineer · *Dec 2022 – Jan 2025*
-Client projects in FinTech, e-commerce and SaaS: Vue 2 → 3 migration (−40% legacy code), JavaScript → TypeScript migration (−30% runtime errors), SSR platform on Nuxt (35% faster first load), cross-platform mobile app on Ionic + Capacitor.
+Client projects in FinTech, e-commerce and SaaS: phased Vue 2 → 3 migration with typed Pinia stores, JavaScript → TypeScript migration with strict typing, an SSR platform on Nuxt with caching and code splitting, a cross-platform mobile app on Ionic + Capacitor.
 
 **Egolist** — Frontend Developer · *Jan 2022 – Dec 2022*
 Marketplace on Vue: WebSocket layer for 10 000+ concurrent connections, GitLab CI/CD (manual releases → one click).
@@ -46,7 +47,7 @@ Marketplace on Vue: WebSocket layer for 10 000+ concurrent connections, GitLab C
 - **Angular:** Angular 20–21, signals, RxJS, Reactive Forms, Angular Material
 - **Core:** TypeScript, Tailwind CSS, SCSS, Storybook, Turborepo
 - **Testing:** Vitest, msw, Playwright, axe-core, Jest, Cypress
-- **Backend & DevOps:** Node.js, REST, GraphQL, WebSockets, Docker, GitHub Actions, GitLab CI
+- **Backend & DevOps:** Node.js, NestJS, PostgreSQL, MongoDB, MySQL, Redis, REST, GraphQL, WebSockets, Docker, GitHub Actions, GitLab CI
 
 ### Education & languages
 
